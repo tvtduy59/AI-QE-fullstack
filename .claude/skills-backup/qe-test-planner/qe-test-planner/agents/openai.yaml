@@ -1,0 +1,14 @@
+interface:
+  display_name: QE Test Planner
+  short_description: Build reviewable plans before any test execution
+  default_prompt: Use $qe-test-planner for this QE project task and follow its review
+    and evidence rules.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

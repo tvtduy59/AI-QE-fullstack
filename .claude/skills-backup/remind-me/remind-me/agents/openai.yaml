@@ -1,0 +1,14 @@
+interface:
+  display_name: Remind Me — QE Knowledge
+  short_description: Read and cross-check knowledge without writing
+  default_prompt: Use $remind-me for this QE project task and follow its review and
+    evidence rules.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

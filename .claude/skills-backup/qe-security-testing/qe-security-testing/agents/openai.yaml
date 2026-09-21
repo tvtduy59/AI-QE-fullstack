@@ -1,0 +1,14 @@
+interface:
+  display_name: QE Security Testing
+  short_description: Plan scoped authorization and security verification
+  default_prompt: Use $qe-security-testing for this QE project task and follow its
+    review and evidence rules.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

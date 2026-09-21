@@ -1,0 +1,14 @@
+interface:
+  display_name: GitHub Requirement Analyzer
+  short_description: Turn ticket evidence into requirements and test scope
+  default_prompt: Use $github-requirement-analyzer with this ticket context and relationship
+    context to produce an evidence-linked Requirement Analysis Package.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

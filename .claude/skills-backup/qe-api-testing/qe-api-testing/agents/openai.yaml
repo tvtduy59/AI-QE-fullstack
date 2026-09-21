@@ -1,0 +1,14 @@
+interface:
+  display_name: QE API Testing
+  short_description: Plan API behavior, contracts, and failure checks
+  default_prompt: Use $qe-api-testing for this QE project task and follow its review
+    and evidence rules.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

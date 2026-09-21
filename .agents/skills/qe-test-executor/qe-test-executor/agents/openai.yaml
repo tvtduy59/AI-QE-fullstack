@@ -1,0 +1,14 @@
+interface:
+  display_name: QE Reviewed Test Executor
+  short_description: Run only reviewed, explicitly authorized test scope
+  default_prompt: Use $qe-test-executor for this QE project task and follow its review
+    and evidence rules.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

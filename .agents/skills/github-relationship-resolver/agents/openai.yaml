@@ -1,0 +1,14 @@
+interface:
+  display_name: GitHub Relationship Resolver
+  short_description: Find and assess tickets with related requirements
+  default_prompt: Use $github-relationship-resolver for this GitHub issue or Ticket
+    Context Package and return an evidence-linked Relationship Context Package.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
